@@ -3,10 +3,19 @@
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .container {
-  margin: 10px auto;
+  margin: 0 auto 10px auto;
   border-radius: 20px;
   display: flex;
   justify-content: center;
